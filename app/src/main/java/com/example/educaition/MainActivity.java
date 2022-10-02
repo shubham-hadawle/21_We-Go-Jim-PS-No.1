@@ -28,4 +28,9 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(this, VirtualAi.class);
         startActivity(i);
     }
+
+    public void openModel(View view){
+        Intent i = new Intent(this, PredictionModel.class);
+        startActivity(i);
+    }
 }

@@ -26,6 +26,7 @@
         <activity android:name=".RecordedLectures"/>
         <activity android:name=".Courses"/>
         <activity android:name=".VirtualAi"/>
+        <activity android:name=".PredictionModel"/>
     </application>
 
 </manifest>

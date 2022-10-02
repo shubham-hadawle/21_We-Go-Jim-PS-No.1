@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinnerItems1">
+        <item>male</item>
+        <item>female</item>
+        <item>others</item>
+    </string-array>
+
+    <string-array name="spinnerItems2">
+        <item>Less than 18</item>
+        <item>Between 18 and 25</item>
+        <item>Between 26 and 35</item>
+        <item>Between 36 and 45</item>
+        <item>Over 45</item>
+        <item>Not available</item>
+    </string-array>
+
+    <string-array name="spinnerItems3">
+        <item>1 day</item>
+        <item>2 days</item>
+        <item>3 days</item>
+        <item>4 days</item>
+        <item>5 days</item>
+    </string-array>
+
+    <string-array name="spinnerItems4">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+    <string-array name="spinnerItems5">
+        <item>I can afford food, but nothing else</item>
+        <item>I cannot afford enough food for my family</item>
+        <item>I can afford food and regular expenses, but nothing else</item>
+        <item>I can afford food, regular expenses, and clothes, but nothing else</item>
+        <item>I can comfortably afford food, clothes, and furniture, and I have savings</item>
+        <item>I can comfortably afford food, clothes, and furniture, but I don’t have savings</item>
+        <item>prefer not to answer</item>
+    </string-array>
+
+</resources>

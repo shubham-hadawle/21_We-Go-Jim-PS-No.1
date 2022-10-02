@@ -145,9 +145,31 @@ public class VirtualAi extends AppCompatActivity {
         {
             speak("My name is Donna");
         }
-        else if(messages.contains("name  "))
+        else if(messages.contains("launch main activity"))
         {
-            speak("My name is Donna");
+            speak("Launching Main Activity");
+            Intent i = new Intent(this, MainActivity.class);
+            startActivity(i);
+        }
+        else if(messages.contains("launch prediction") )
+        {
+            speak("Launching Prediction Activity");
+            Intent i = new Intent(this, PredictionModel.class);
+            startActivity(i);
+        }
+        else if(messages.contains("launch recorded") )
+        {
+            speak("Launching Recorded Video Section");
+            Intent i = new Intent(this, RecordedLectures.class);
+            startActivity(i);
+        }
+        else if(messages.contains("help") || message.contains("Scholarship"))
+        {
+            speak("You can go to prediction section of the app fill details and click prediction button to know about your scholorship chances");
+        }
+        else if(messages.contains("Who made you"))
+        {
+            speak("No one");
         }
         else{
             speak("Sorry I don't know that one");
