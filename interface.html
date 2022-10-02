@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel ="stylesheet" href="interfacestyle.css">
+ <title>Hack-AI-thon</title>
+</head>
+<body>
+
+
+    <header>
+        <h1>Educ-AI-tion</h1>
+    </header>
+    <section class="banner">
+    <img src="AIS.png" alt=" welcome to aids ">
+    <div class ="welcome">
+        <h2>AI<br><span>Co-Legion</span></h2>
+
+    </div>
+    </section>
+    
+    <main>
+      <article>
+          <h2>Solving Education problems during Covid-19</h2>
+          <p>
+            This web application helps you to find the right online courses and scholarship programs using our machine learning predictions model.
+            
+
+            
+        </p>
+      </article>  
+      <ul class="images">
+          
+          <li>
+            <img src="motherstudy.jpg" alt="help"><br><h2>Helping parents find the right<br>career path for their children<br>and students
+                 across the country </h2></li>
+            
+            <li><img src="studyimg2.png " alt="help2"><br><h2>A Good Education <br>is foundation <br>for better future.    </h2></li>
+      </ul>
+    </main>
+    <p class="txt">Below are some questions you need to answer which would tell us about the problems you are facing.<br>
+        Using data analysis it would suggest which areas or sector lacks basic facilities and resources during the covid-19 pandemic .<br>
+        This data is sent to the authorities which take effective measures to make sure these problems are taken care of . 
+
+    
+
+    </p>
+    <nav class="main-nav">
+        <ul> 
+            
+            <label>Gender</label>
+            <select id="gender" onclick="display()">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                
+            </select>
+            <br>
+            <br>
+            <label>Age</label>
+            <select id="Age"  onclick="display1()">
+                <option value="17">Less than 18</option>
+                <option value="18">Between 18-25</option>
+                <option value="25">Between 25-36</option>
+                <option value="36">Between 36-45</option>
+                <option value="45">Above 45</option>
+                
+            </select>
+           <br>
+           <br>
+            <label>Does the student attend face to face classes?</label>
+            <select id="facetoface"  onclick="display2()">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+                
+            </select>
+            <br>
+            <br>
+            <label>Does the student experience lack of basic services?</label>
+            <select id="basiclackofservices"  onclick="display3()">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+                
+            </select>
+            <br>
+            <br>
+            <label>How often does a student recieve mid day meals in a week? </label>
+            <select id="middaymeals"  onclick="display4()">
+                
+                <option value="0">None</option>
+                <option value="1">1 day</option>
+                <option value="2">2 days</option>
+                <option value="3">3 days</option>
+                <option value="4">4 days</option>
+                <option value="all">All days</option>
+                
+            </select>
+            <br>
+            <br>
+            <label>Does the student face deficit of internet connection?</label>
+            <select id="deficitinternetconnection" onclick="display5()">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+                
+            </select>
+
+            <br>
+            <br>
+            <label>Does student miss classes due to electricity problem?</label>
+            <select id="electricityproblem"  onclick="display6()">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+                
+            </select>
+             
+            
+            
+          
+
+            <br>
+            <br>
+            <label>Does the student have regular electricity?</label>
+            <select id="noelectricity" onclick="display7()">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+                
+            </select>
+            <br>
+            <br>
+            <label>Does the student have regular internet?</label>
+            <select id="nointernet" onclick="display8()">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+                
+            </select>
+            <br>
+            <br>
+            <br>
+            <button type="button">Make Prediction</button>
+            
+            
+        
+           
+
+            
+        </ul>
+
+   
+        <script>
+            {
+            function display()
+            {
+                var a= document.getElementById('gender').value;
+                document.getElementById('poll').innerHTML =a;
+            }
+            function display1()
+            {
+
+                var b= document.getElementById('Age').value;
+                document.getElementById('poll').innerHTML =b;
+            }
+            function display2()
+            {
+
+                var c= document.getElementById('facetoface').value;
+                document.getElementById('poll').innerHTML =c;
+            }
+            function display3()
+            {
+
+                var d= document.getElementById('basiclackofservices').value;
+                document.getElementById('poll').innerHTML =d;
+            }
+            function display4()
+            {
+
+                var e= document.getElementById('middaymeals').value;
+                document.getElementById('poll').innerHTML =e;
+            }
+            function display5()
+            {
+
+                var f= document.getElementById('deficitinternetconnection').value;
+                document.getElementById('poll').innerHTML =f;
+            }
+            function display6()
+            {
+
+                var g= document.getElementById('electricityproblem').value;
+                document.getElementById('poll').innerHTML =g;
+            }
+            function display7()
+            {
+
+                var h= document.getElementById('noelectricity').value;
+                document.getElementById('poll').innerHTML =h;
+            }
+            function display8()
+            {
+
+                var i= document.getElementById('electricityproblem').value;
+                document.getElementById('poll').innerHTML =i;
+            }
+
+            }
+          
+        
+            
+        </script>
+        <br><br>
+        <p id ="poll">checking</p>
+</body>
+
+</html>
