@@ -1,5 +1,5 @@
 # Prediction Models on Scholarship Grant by identfying the Financial Status
-Creating Prediction Models to detect the student's financial status, thereby deciding whether the student should be eligible to be granted a scholarship or not.
+After Preprocessing and Visualizing the Data, we have created Prediction Models to detect the student's financial status, thereby deciding whether the student should be eligible to be granted a scholarship or not.
 
 <i>
 This data is about survey crowdsourced from the parents regarding their children’s educational conduct Venezuela and its states.
